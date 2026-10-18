@@ -1,0 +1,14 @@
+# Do not edit manually
+# Configuration for git attributes
+# See https://github.com/github/linguist
+*.jpg binary
+dist/* linguist-vendored 
+*.html linguist-vendored
+*.yaml linguist-detectable=false
+* text=auto eol=lf
+
+*.map linguist-generated
+
+*.tsx linguist-detectable
+*.svg text
+public/*.html linguist-vendored
